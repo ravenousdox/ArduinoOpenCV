@@ -80,20 +80,3 @@ Generates random numbers, computes their factors, and uses `pyautogui` to type t
 
 Brute-forces integer coefficient pairs to find quadratic equations where the product of the roots is smaller in magnitude than their sum. Explores algebraic relationships and factor behavior.
 
----
-
-## Requirements
-
-- Python 3.x
-- `pyautogui`
-- `opencv-python`
-- `face_recognition`
-- `numpy`
-- `pickle`
-
-Install all dependencies via:
-
-```bash
-pip install -r requirements.txt
-```
-
