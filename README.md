@@ -14,7 +14,7 @@ This codebase analyzes the required action sequence, calculates positional offse
 
 ### Knapping and Clay Molding Automation
 
-This project automates the knapping and clay molding interfaces in Terrafirmacraft by simulating grid-based crafting actions. These interfaces use a 5\u00d75 grid where specific tiles must be selected to form item patterns such as tools or containers.
+This project automates the knapping and clay molding interfaces in Terrafirmacraft by simulating grid-based crafting actions. These interfaces use a 5x5 grid where specific tiles must be selected to form item patterns such as tools or containers.
 
 The script uses Python and `pyautogui` to replicate these patterns by clicking mapped screen coordinates corresponding to each item\u2019s shape. Users specify the item and quantity, and the program performs the full interaction loop: opening the interface, executing the pattern, and repeating as needed.
 
